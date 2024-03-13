@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.main-section {
+    background-image: url(./arxaplan.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 0px 60px 60px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.demo {
+    color: white;
+    padding: 20px 20px;
+    width: 100%;
+    height: 60px;   
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Slackside One", cursive;
+    font-size: 25px;
+}
+
+
+.logo {   
+    background-image: url(./pngegg\ \(4\).png);    
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    transition: 1s;
+    filter: drop-shadow(3px 3px 5px #3d3dcc)
+}
+
+
+.logo:hover {
+    transform: rotateY(180deg);
+    filter: drop-shadow(30px 20px 5px #3d3dcc)
+}
+
+
+.başlıq_hissə ul {
+    width: 700px;
+    display: flex;
+    justify-content: right;
+    gap: 40px;
+}
+
+
+i {
+    color: #1958e0;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: -1px 1px 25px 1px rgba(255, 255, 255, 0.75);
+    z-index: 1;
+    padding: 8px;
+    width: 40px;
+    height: 40px
+}
+
+
+.ikon :hover {
+    box-shadow: -1px 1px 25px 1px rgb(85, 48, 172);
+}
+
+
+.second-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.soltərəf {
+    margin-top: 330px;
+    margin-left: 80px;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: start;
+
+}
+
+
+#ufo {
+    color: white;
+    font-size: 80px;
+    font-family: "Slackside One", cursive;
+    transition: 0.2s;
+}
+
+
+#ufo:hover {
+    filter: drop-shadow(10px 6px 4px #3434eb);
+}
+
+
+.soltərəf p {
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    font-family: "Slackside One", cursive;
+    font-size: 20px;
+}
+
+
+a {
+    padding: 10px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    background: rgb(2, 153, 184);
+    background: linear-gradient(90deg, rgb(5, 47, 136) 48%, rgb(115, 125, 177) 86%);
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    transition: 0.9s;
+    font-family: "Poppins", sans-serif;
+}
+
+
+a:hover {
+    filter: brightness(1.4);
+}
+
+
+li:hover {
+    border-bottom: 2px solid rgb(47, 67, 182);
+
+}
+
+
+.yadplanetli {
+    display: flex;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: space-evenly;
+    align-items: end;
+    margin: 5px;
+    height: 180px;
+    width: 140px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0px 0px 5px 2px rgba(153, 156, 161, 0.75);
+    transition: 0.4s;
+
+}
+
+
+.sağtərəf {
+    padding-top: 0px;
+    width: 320px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.açıqlama {
+    color: white;
+    padding: 3px;
+    width: 100%;
+    font-size: 8px;
+    font-family: "Slackside One", cursive;
+}
+
+h5 {
+    position: absolute;
+    bottom: 45px;
+    left: 5px;
+    font-size: 15px;
+    color: white;
+    font-family: "Slackside One", cursive;
+}
+
+
+#photo1 {
+    margin-top: 300px;
+    background-image: url(./page1.jpeg);
+}
+
+#photo1:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px 4px rgba(29, 68, 145, 0.75);
+}
+
+#photo2 {
+    margin-top: 300px;
+    background-image: url(./page2.jpeg);
+}
+
+#photo2:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px 4px rgba(29, 68, 145, 0.75);
+}
+
+
+#photo3 {
+    margin-top: 100px;
+    background-image: url(./page3.jpeg)
+}
+
+#photo3:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px 4px rgba(29, 68, 145, 0.75);
+}
+
+
+#photo4 {
+    margin-top: 100px;
+    background-image: url(./page4.jpeg);
+}
+
+#photo4:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px 4px rgba(29, 68, 145, 0.75);
+}
